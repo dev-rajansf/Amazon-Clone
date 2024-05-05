@@ -1,0 +1,431 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 113px;
+}
+.logo{
+    background-image: url(logo.png);
+    height: 50px;
+    width: 113px;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover {
+    border: 1.5px solid white;
+    border-radius: 3PX;
+}
+
+
+/* boxxx 2 */
+.nav_address{
+    height: 50px;
+    width: 80px;
+    align-items: center;
+}
+
+.add_first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.add_icon{
+    display: flex;
+    margin-left: 5px;
+}
+.add_second{
+    font-size: 1rem;
+    margin-left: 4px;
+    
+}
+
+
+/* boooxx333 */
+.nav_seacch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius:4px ;
+}
+.nav_seacch:hover{
+   border: 2px solid orange;
+}
+.search_select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    border: none;
+}
+.search_input{
+    width:100%;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.2rem;
+    background-color:#febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+}
+
+
+/* boox44 */
+.span{
+    font-size:0.7rem ;
+}
+.nav_second{
+    font-size: 0.85;
+    font-weight: 700;
+}
+
+
+/* boox5 */
+#raj{
+    font-size: 1.5rem;
+}
+.nav_cart{
+   font-size: 0.85rem;
+   font-weight: 700;
+}
+/* part2 */
+.panel{
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222f3d;
+    color: white;
+}
+.panel_options p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel_options{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel_deals{
+    font-size:0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero_sec{
+    background-image:url(hero.png);
+    height:600px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    height: 350px;
+    justify-content: center;
+}
+.hero_msg{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+.hero_msg a{
+    color: #007185;
+}
+/* iitems */
+.sell_itemsfir{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    position: relative;
+    
+}
+.box{
+    height: 400px;
+    
+    width: 23%;
+    background-color: white;
+    margin-bottom: 20px;
+}                              
+/* .box1 {
+    justify-content: center;
+    align-items: center;
+}  */
+.box1_img{
+    height: 300px;
+    background-image: url(image1.png);
+    margin-top: 10px;
+}     
+.sell_itemsfir h2{
+    margin-left: 15px;
+    margin-top:15px;
+}   
+.sell_itemsfir p{
+    color: rgb(9, 149, 173);
+    margin-left: 18px;
+    margin-top:20px;
+    font-size:0.80rem;
+    font-weight: 600;
+}    
+.sell_itemsfir a{
+    color: rgb(9, 149, 173) ;
+    text-decoration: none;
+}
+.sell_itemsfir a:hover{
+    color:orange;
+}
+.box2_img{
+    height: 300px;
+    background-image:url(image2.png) ;
+    margin-top: 10px;
+}
+.box3_img{
+    height: 300px;
+    background-image:url(image3.png) ;
+    margin-top: 10px;
+}
+.box4_img{
+    height: 300px;
+    background-image:url(image4.png) ;
+    margin-top: 10px;
+}
+@media(min-width:900px){
+      .box8_img{
+         overflow-x: auto;
+      }
+}
+/* sssection seconf sell */
+.sell_itemsec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+    position: relative;
+    
+}
+.box5_img{
+    height: 280px;
+    width:280px;
+    margin-left:20px;
+    margin-top: 10px;
+    background-image:url(image5.png);
+    background-size: cover;
+}
+.box6_img{
+    height: 280px;
+    width:280px;
+    margin-left:15px;
+    margin-top: 10px;
+    background-image:url(image6.png);
+    background-size: cover;
+}
+.box7_img{
+    height: 280px;
+    width:280px;
+    margin-left:20px;
+    margin-top: 10px;
+    background-image:url(image7.png);
+    background-size: cover;
+}
+.box8_img{
+    height: 280px;
+    width:280px;
+    margin-left:20px;
+    margin-top: 10px;
+    background-image:url(image8.png);
+    background-size:cover;
+    margin-left: 0px;
+}
+.sell_itemsec h2{
+    margin-left: 15px;
+    margin-top:15px;
+}   
+.sell_itemsec p{
+    color: rgb(9, 149, 173);
+    margin-left: 18px;
+    margin-top:20px;
+    font-size:0.80rem;
+    font-weight: 600;
+}    
+.sell_itemsec a{
+    color: rgb(9, 149, 173) ;
+    text-decoration: none;
+}
+.sell_itemsec a:hover{
+    color:orange;
+}
+/* lllast part */
+.footor{
+    margin-top: 10px;
+}
+.foot_p1{
+    background-color: #37475a;
+    color: white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot_p2{
+  background-color: #222f3d;
+  color: white;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+}    
+ul{
+    margin-top: 20px;
+
+}
+.foot_p2 a{
+    display: block;
+    font-weight: 0.8rem;
+    color: #dddddd;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.foot_p2 a:hover{
+    text-decoration: underline;
+}
+.foot_p3{
+    background-color:#222f3d ;
+    border-top:0.5px solid rgb(236, 230, 230);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot_p3 logo{
+    background-image: url(logo.png);
+    background-size: cover;
+    height:50px;
+    width: 100px;
+}
+.foot_p4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+.pages{
+    font-size: 0.7rem;
+    padding-top: 25px;
+}
+.suraj{
+    font-size: 0.7rem;
+
+}
+.wrapper{
+    
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+    border-top: none;
+}
+/* .wrapper::-webkit-scrollbar{
+    height: 10px;
+    background-color: #ddd;
+    color: white;
+} */
+
+.wrapper .item{
+    height:200px;
+    width: 133px;
+    min-width: 133px;
+    line-height: 200px;
+    text-align: center;
+    margin: 10px;
+}
+.wrapper p{
+   display: table-row;
+}
+.name{
+    height: 280px;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+/* remaining part */
+.box9_img{
+    height: 280px;
+    width:280px;
+    background-image: url(image9.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+.box10_img{
+    height: 280px;
+    width:280px;
+    background-image: url(image10.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+.box11_img{
+    height: 280px;
+    width:280px;
+    background-image: url(image11.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+.box12_img{
+    height: 280px;
+    width:280px;
+    background-image: url(image12.png);
+    background-size: cover;
+    margin-left: 15px;
+}
+.signin{
+    background-color: #fafcfc;
+    height:126px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(167, 167, 167);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.signin #sighin_btn{
+    width: 223px;
+    height: 28px;
+    border: 1px solid rgb(247, 163, 6);
+    border-radius:5px;
+    background-color: rgb(240, 197, 6);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signin_items #p9{
+    font-size: 0.8rem;
+    margin-left:10px;
+}
+.signin #p1{
+    font-size:0.7rem;
+    margin-left: 45px;
+}
